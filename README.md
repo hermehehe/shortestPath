@@ -13,6 +13,7 @@ Traffic data is constantly changing, especially in cities, to emulate this, traf
 * Each edge contains the distance, speed, time information between two edges as well as the destination edge. It has a pointer to the next edge as well, so it can be used in the List class to construct a linked list of edges. * A Queue class has been made to implement Dijkstra’s algorithm. It contains a pointer to an array of QueueEntry elements. I made a QueueEntry class instead of reusing the vertex data type to avoid issues with double deletion as pointers from different classes would be pointing to the same object.
 
 *COMMANDS*
+
 Keep in mind when writing commands if arguments don't follow these requirements, the program will throw an exception.
 
 ![image](https://github.com/hermehehe/shortestPath/assets/166939272/e9c12d16-aaae-4214-8f86-54defea756b6)
