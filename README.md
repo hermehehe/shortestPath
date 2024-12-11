@@ -20,18 +20,18 @@ Note: when writing commands if arguments don't follow these requirements, the pr
 
 *LOAD* filename - loads a dataset into the graph. Can call this multiple times. This command assumes that no illegal arguments are in the datasets, all rows in the file should has the same format as a single INSERT command, assumes A=1 when inserting. Outputs "success".
 
-*INSERT* a b d s - insert a new edge into the graph from vertex a to vertex b, distance d and speed limit of s. If vertices already exist, d and s are updated. Outputs "success" if edge was added/updated, else outputs "illegal argument".
+*INSERT* a b d s - inserts a new edge into the graph from vertex a to vertex b, distance d and speed limit of s. If vertices already exist, d and s are updated. Outputs "success" if edge was added/updated, else outputs "illegal argument".
 
-*PRINT* a - Prints all vertices adjacent to vertex a. Outputs "failure" if vertex is not in the graph.
+*PRINT* a - prints all vertices adjacent to vertex a. Outputs "failure" if vertex is not in the graph.
 
-*DELETE* a - Deletes the vertex a and any edges containing a. Ouputs "success" if vertex was deleted or "failure" if vertex is not in the graph, or the graph is empty.
+*DELETE* a - deletes the vertex a and any edges containing a. Ouputs "success" if vertex was deleted or "failure" if vertex is not in the graph, or the graph is empty.
 
-*PATH* a b - Prints the nodes along the lowest-weight path between vertices a and b. Outputs "failure" if graph is empty or there is no path between the two vertices or one of the vertices is not in the graph.
+*PATH* a b - prints the nodes along the lowest-weight path between vertices a and b. Outputs "failure" if graph is empty or there is no path between the two vertices or one of the vertices is not in the graph.
 
-*TRAFFIC* a b A - Updates the adjustment factor, A, for edge between vertices A and B. Outputs "success" if both vertices exist, there is an edge between them and A is a number from 0-1, otherwise ouputs "failure".
+*TRAFFIC* a b A - updates the adjustment factor, A, for edge between vertices A and B. Outputs "success" if both vertices exist, there is an edge between them and A is a number from 0-1, otherwise ouputs "failure".
 
-*UPDATE* filename - Update traffice data between all vertices in teh file, traffic data should be given in the same format as the TRAFFIC command. Outputs "success" if at least one edge had traffic data updated, if not, outputs "failure".
+*UPDATE* filename - update traffice data between all vertices in teh file, traffic data should be given in the same format as the TRAFFIC command. Outputs "success" if at least one edge had traffic data updated, if not, outputs "failure".
 
-*LOWEST* a b - Determine the weight of the lowest-weight path. Outputs "lowest is x" if at leat one path between vertices a and b exists otherwise outputs "failure".
+*LOWEST* a b - determine the weight of the lowest-weight path. Outputs "lowest is x" if at leat one path between vertices a and b exists otherwise outputs "failure".
 
 
