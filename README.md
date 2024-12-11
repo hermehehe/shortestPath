@@ -1,6 +1,6 @@
 # shortestPath
 
-In this project I designed a graph structure which stores a weighted, undirected graph. The program uses Dijkstra's algorithim to determine the lowest-weight path between two vertices. For this program's purposes, the graph's vertices represents a city intersection, the edges are roads, and the weight of these edges are the travel time between two intersections. This program challenged me as it was the first time I implemented an algorithm such as Dijkstra's in my own code, through this, I got to learn more about using heaps and queues as well.
+In this project I designed a graph structure which stores a weighted, undirected graph. The program uses Dijkstra's algorithim to determine the lowest-weight path between two vertices. For this program's purposes, the graph's vertices represents a city intersection, the edges are roads, and the weight of these edges are the travel time between two intersections. This program challenged me, as it was the first time I implemented an algorithm such as Dijkstra's in my own code, through this, I got to learn more about using heaps and queues as well.
 
 **Adjustment Factor**
 
@@ -14,7 +14,7 @@ Traffic data is constantly changing, especially in cities, to emulate this, traf
 
 *COMMANDS*
 
-Keep in mind when writing commands if arguments don't follow these requirements, the program will throw an exception.
+Note: When writing commands if arguments don't follow these requirements, the program will throw an exception.
 
 ![image](https://github.com/hermehehe/shortestPath/assets/166939272/e9c12d16-aaae-4214-8f86-54defea756b6)
 
