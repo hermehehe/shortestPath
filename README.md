@@ -5,6 +5,7 @@ In this project I designed a graph structure which stores a weighted, undirected
 **Adjustment Factor**
 
 Traffic data is constantly changing, especially in cities, to emulate this, traffic data is represented by a number from 0-1 (adjustment factor). The formula to calculate the travel time, T, between two vertices is T = d/(SxA), where d is the distance in metres between vertices, S is the speed limit on the road in m/s and A is the adjustment factor. If A = 0, the road is fully blocked and time is infinite.
+
 **UML**
 ![image](https://github.com/hermehehe/shortestPath/assets/166939272/e115f49d-6673-4fb1-9605-0c0b8f70e861)
 
