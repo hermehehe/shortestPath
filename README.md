@@ -33,6 +33,6 @@ Note: when writing commands if arguments don't follow these requirements, the pr
 
 *UPDATE* filename - updates traffic data between all vertices in *filename*, traffic data should be given in the same format as the TRAFFIC command. Outputs "success" if at least one edge had traffic data updated, if not, outputs "failure".
 
-*LOWEST* a b - determines the weight of the lowest-weight path between vertices *a* and *b*. Outputs "lowest is x" if at least one path exists, otherwise outputs "failure".
+*LOWEST* a b - determines the weight of the lowest-weight path (fastest travel time) between vertices *a* and *b*. Outputs "lowest is ..." if at least one path exists, otherwise outputs "failure".
 
 
