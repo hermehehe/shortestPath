@@ -14,7 +14,7 @@ Traffic data is constantly changing, especially in cities, to emulate this, traf
 
 **COMMANDS**
 
-Note: When writing commands if arguments don't follow these requirements, the program will throw an exception.
+Note: when writing commands if arguments don't follow these requirements, the program will throw an exception:
 
 ![image](https://github.com/hermehehe/shortestPath/assets/166939272/e9c12d16-aaae-4214-8f86-54defea756b6)
 
