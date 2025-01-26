@@ -6,7 +6,6 @@
 using namespace std;
 //Hermela Gebretsion
 
-//from ece150 lecture notes
 class MyException {
 
     public:
