@@ -6,7 +6,6 @@
 
 //Hermela Gebretsion
 
-//from ece150 lecture notes
 class Vertex {
     public:
     
