@@ -21,7 +21,7 @@ const char *MyException::what() const
 Vertex::Vertex(int vertex1){
     vertex_num = vertex1;
     edge_list = nullptr;
-    path_weight = INT_MAX; //how to set to infinity from chatgpt
+    path_weight = INT_MAX; //set to infinity
 
 }
 Vertex::Vertex(){
